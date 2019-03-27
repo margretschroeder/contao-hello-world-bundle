@@ -1,17 +1,17 @@
 {
-    "name": "contao/skeleton-bundle",
+    "name": "margretschroeder/contao-hello-world-bundle",
     "type": "contao-bundle",
-    "description": "Skeleton for custom Contao 4 bundles",
+    "description": "Hello World extension for Contao Open Source CMS",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "Leo Feyer",
-            "homepage": "https://github.com/leofeyer"
+            "homepage": "https://github.com/margretschroeder"
         }
     ],
     "require": {
         "php": "^5.6 || ^7.0",
-        "contao/core-bundle": "4.4.*",
+        "contao/core-bundle": ">=4.4.*",
         "symfony/framework-bundle": "^3.3"
     },
     "conflict": {
@@ -28,20 +28,20 @@
         "symfony/phpunit-bridge": "^3.2"
     },
     "extra": {
-        "contao-manager-plugin": "Contao\\SkeletonBundle\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Margretschroeder\\ContaoHelloWorldBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\": "src/"
+            "Margretschroeder\\ContaoHelloWorldBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Contao\\SkeletonBundle\\Tests\\": "tests/"
+            "MargretSchroeder\\ContaoHelloWorldBundle\\Tests\\": "tests/"
         }
     },
     "support": {
-        "issues": "https://github.com/contao/skeleton-bundle/issues",
-        "source": "https://github.com/contao/skeleton-bundle"
+        "issues": "https://github.com/margretschroeder/contao-hello-world-bundle/issues",
+        "source": "https://github.com/margretschroeder/contao-hello-world-bundle"
     }
 }
