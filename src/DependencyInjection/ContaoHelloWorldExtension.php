@@ -2,7 +2,7 @@
 
 
 
-namespace Margretschroeder\contaoHelloWorldBundle\DependencyInjection;
+namespace Margretschroeder\ContaoHelloWorldBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
