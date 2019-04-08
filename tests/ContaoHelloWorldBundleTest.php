@@ -1,7 +1,5 @@
 <?php
 
-/
-
 namespace MargretSchroeder\ContaoHelloWorldBundle\Tests;
 
 use Margretschroeder\ContaoHelloworldBundle\ContaoHelloWorldBundle;

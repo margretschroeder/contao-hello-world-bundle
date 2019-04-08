@@ -36,6 +36,11 @@ class HelloWorldModule extends \Module
      */
     protected function compile()
     {
+       	 $messageGenerator = \Contao\System::getContainer()->get('margretschroeder.contao_hello_world_bundle.message_generator');
+		 $message = $messageGenerator->sayHelloTo('All World');
+			
         $this->Template->message = 'Hello World hier ist Margret';
+		$this->Template->message = $message;
+		
     }
 }
