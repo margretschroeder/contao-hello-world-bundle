@@ -2,7 +2,7 @@
 
 namespace Margretschroeder\ContaoHelloWorldBundle\Module;
 
-class HelloWorldModule extends \Module
+class HelloWorldModule extends \Haste\Frontend\AbstractFrontendModule
 {
     /**
      * @var string
@@ -14,6 +14,8 @@ class HelloWorldModule extends \Module
      *
      * @return string
      */
+    
+    /**
     public function generate()
     {
         if (TL_MODE == 'BE') {
@@ -30,7 +32,7 @@ class HelloWorldModule extends \Module
 
         return parent::generate();
     }
-
+**/
     /**
      * Generates the module.
      */
